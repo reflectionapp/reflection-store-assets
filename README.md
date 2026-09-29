@@ -1,6 +1,7 @@
 # reflection-store-assets
 
-Images for Reflection's App Store in-app events. The repository is public so
+Images for Reflection's App Store listing: in-app event art, and the store
+screenshots under `app-store-screenshots/` (see its README for the naming). The repository is public so
 GitHub's raw host can serve the files, which lets the store-presence MCP server
 fetch them by URL and upload them to App Store Connect.
 
@@ -12,6 +13,10 @@ events/<event-slug>/details.png    event details page, 1080 × 1920, PNG or JPEG
 ```
 
 Use a fresh slug per event, for example `events/october-reset-2026/`.
+
+```
+app-store-screenshots/apple/ios/v7/iphone-6.7in/app-store_apple_ios_iphone-6.7in_01_hero.png
+```
 
 ## URLs
 
