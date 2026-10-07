@@ -13,13 +13,15 @@ uses 5 s).
 | `daily` | 13da47be-f55f-4bcb-89c8-0889d2a9393a | Daily reflections in 5 minutes. | The daily question's entry, written |
 | `anxiety` | 2bdf6ca4-1a35-41b1-8d97-2952f67e4846 | A calmer place for anxious thoughts. | Go From Fear to Confidence, a reply that slows things down |
 
-## Two formats per page
+## Files
 
-| File | Spec | Where it goes |
+| Placement | Path | Spec |
 | --- | --- | --- |
-| `…_cpp-<page>_search-video_3840x2560.mp4` | 3:2, 3840 × 2560, HEVC, 30 fps, 21.6 s, silent loop | iOS 27 search-results creative asset for the page |
-| `…_cpp-<page>_search-video_1920x1280.mp4` | the same at 1920 × 1280, H.264 | the same placement, if the HEVC master is refused |
-| `…_cpp-<page>_app-preview.mp4` | 886 × 1920, H.264 + AAC, 30 fps, 25.1 s | the page's app preview (iPhone 6.7") |
+| iOS 27 search results | `app-store-creative/apple/ios/v7/cpp/<page>/app-store_apple_ios_cpp-<page>_search-results_3840x2560.mp4` | 3:2, 3840 × 2560, HEVC, 30 fps, 21.6 s, silent loop |
+| the same, H.264 | `app-store-creative/apple/ios/v7/cpp/<page>/app-store_apple_ios_cpp-<page>_search-results_1920x1280.mp4` | 1920 × 1280, for anything that refuses the HEVC master |
+| App preview (iPhone 6.7") | `app-store-videos/apple/ios/v7/cpp/<page>/app-store_apple_ios_iphone-6.7in_cpp-<page>_app-preview.mp4` | 886 × 1920, H.264 + AAC, 30 fps, 25.1 s |
+
+The search videos are silent on purpose: Apple plays search-results video muted, with no way to unmute.
 
 **Format check (7 Oct 2026).** Apple's App Store Connect help, updated for the 5 Oct 2026 creative-assets launch,
 says creative assets can be uploaded "from Custom Product Pages", and that a custom product page's submission
