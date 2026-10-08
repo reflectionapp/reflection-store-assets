@@ -12,6 +12,14 @@ uses 5 s).
 | `shadowwork` | 12ac5229-6d12-493d-90a8-f2a0d19f0e01 | Shadow work, one question at a time. | Healing Your Inner Child, the Coach asking why |
 | `daily` | 13da47be-f55f-4bcb-89c8-0889d2a9393a | Daily reflections in 5 minutes. | The daily question's entry, written |
 | `anxiety` | 2bdf6ca4-1a35-41b1-8d97-2952f67e4846 | A calmer place for anxious thoughts. | Go From Fear to Confidence, a reply that slows things down |
+| `voice` | 787dd533-9857-4fd4-ae33-55ba1a8f0d64 | Talk it out. | The call hung up, its summary written into the entry |
+| `coach` | f6bee2e1-aa1b-41c5-8b10-eedcfac86e5f | A coach in your pocket. | Sam's line written, the Coach's question on the next line |
+
+Search keywords: `selfcare` self-care, gratitude; `prompts` prompts, guided; `shadowwork` shadow work; `daily` daily; `anxiety` anxiety, therapy; `voice` voice, audio; `coach` coach, chat.
+
+`voice` opens on Voice Call mid-conversation, its timer running, then hangs up and the conversation lands in the
+entry as a written summary. `coach` opens on a plain entry: a line typed, Enter, and the Coach's question on the next
+line. Neither shows a BETA tag.
 
 ## Files
 
